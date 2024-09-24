@@ -1,0 +1,169 @@
+@media screen and (max-width:750px){
+    .menu-icon{
+        display: block;
+    }
+
+    nav .nav-list{
+        display: none;
+        position: absolute;
+        z-index: 999;
+        top: 90px;
+        left: 0;
+        right: 0;
+        background-color: #E5E4CA;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .menu-toggle:checked + .menu-icon + .nav-list{
+        display: flex;
+        max-height: 300px;
+    }
+
+    /* ! Main Alanı */
+    .hero-image .main-text{
+        width: 90%;
+        left: 50%;
+    }
+
+
+    .hero-image .main-text h1{
+        font-size: 45px;
+        letter-spacing: 7px;
+    }
+}
+
+
+/* ! Hakkımızda Section */
+@media screen and (max-width: 850px) {
+    .hak-content {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .hak-left, .hak-right {
+        width: 100%;
+    }
+
+    .hak-left {
+        margin-bottom: 20px;
+    }
+
+    /* ! İletişim Section */
+    .iletisim-content{
+        flex-direction: column;
+    }
+
+    .iletisim-content .iletisim-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .iletisim-content .iletisim-right{
+        width: 100%;
+    }
+}
+
+
+/* ! Footer */
+@media screen and (max-width : 1000px){
+       
+    footer .center{
+        order: -1;
+        width: 100%;
+    }
+
+    footer input{
+        width: 60%;
+        padding: 5px 15px;
+        border-radius: 30px;
+        border: 2px solid #3E4B39;
+        color: #3E4B39;
+        margin-bottom: 10px;
+    }
+        
+}
+
+/* ! Öne Çıkan Ürünlerimiz */
+@media screen and (max-width:1150px){
+    .product{
+        width: 100vw;
+        background-color: #E5E4CA;
+        padding: 3%;
+    }
+
+    .item{
+        width: 250px;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+    }
+}
+
+
+/* ! Blog Section */
+@media screen and (max-width:963px){
+    .section-blog-wrapper{
+        display: flex;
+        justify-content: center;
+        padding-inline: 3%;
+    }
+}
+
+
+/* ! Menü Section */
+@media screen and (max-width:910px){
+    .menu-section{
+        position: relative;
+        width: 90%;
+        height: 1000px;
+        background-image: url("img/menu-arkaplan.jpeg");
+        background-size: 93% 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        border: 5px groove #E5E4CA;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .menu-section{
+        width: 90%;
+    }
+
+    .menu-section .yazi{
+        bottom: 50px;
+        font-size: 14px;
+    }
+
+    .urun{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .urun h4{
+        text-align: center;
+    }
+
+    .urun .icecek-left, .urun .tatli-right{
+        width: 100%;
+        padding-inline: 10%;
+        padding-top: 2%;
+        margin-bottom: 20px;
+    }
+
+    .ayrac{
+        display: none;
+    }
+
+    .slider-content img{
+        width: 500px;
+        height: 200px;
+        border: 1px solid white;
+    }
+    
+    
+}
